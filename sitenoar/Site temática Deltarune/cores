@@ -1,0 +1,55 @@
+#bf8227
+#2e1608
+
+
+
+
+
+
+
+
+nav{
+    background-color: #bf8227 ;
+    padding: 5px;
+    margin-top:none;
+    text-align: center;
+}
+
+
+div.video{
+    position: relative;
+    background-color: blue;
+    margin: 0px -2px 3px -2px;
+    padding: 0px -2px;
+    margin-top: 5px;
+    padding-bottom: 59%;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    width:60%;
+    height: 60%;
+}
+
+
+
+CSS
+    header{
+    background-color: #bf8227;
+    padding: 5px;
+    margin-top:none;
+    text-align: center;
+}
+
+
+nav > a{
+    text-decoration:none;
+    color: white;
+    padding-right: 125px;
+    margin-left: 50px;
+    font-family: deltarune;
+    transition-duration: .3s;
+}
+

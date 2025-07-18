@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Deltarune;
+    src: url(fontes/undertale-deltarune-text-font-extended.otf);
+}
+
+body{
+    background-image:url(imagens/deltarune-logo-on-DOURADO-zt9e55a7jbm4qti6.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#logodelta{
+    margin:  auto;
+    max-width: 585px;
+    display: block;
+}
+
+*{
+    margin: 0;
+}
+
+header{
+    background-color: #bf8227;
+    padding: 5px;
+    margin-top:none;
+    text-align: center;
+}
+
+
+nav > a{
+    text-decoration:none;
+    color: white;
+    padding: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: deltarune;
+    transition-duration: .3s;
+}
+
+nav > a:hover{
+    color: #77531ed0;
+}
+
+main{
+    background-color:  #bf8227;
+    color: white;
+    font-family: deltarune;
+    min-width: 320px;
+    max-width: 1365px;
+}
+
+main > h2{
+    text-align: center;
+
+}
+
+
+/* CLASSE para mudar as propriedades de uma img que representa um link */  
+.imglink{                                                     
+    width: 100px;                                                            
+    margin-left: 115px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #2e1608;
+    border: solid white 2px;
+    transition-duration: .3s;
+}
+
+.imglink:hover{
+    border: solid rgb(255, 255, 83) 2px;
+}
+
+
+
+div.video{
+    background-color: var(--cor03);
+    margin: 0px -20px 30px -20px;
+    padding: 0px -20px;
+    margin-top: 5px;
+    padding-bottom: 59%;
+    position: relative;
+} 
+div.video > iframe{
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+main > p{
+    margin: 2px;
+    text-align: center;
+    font-size: 12px;
+    src: url(fontes/undertale-deltarune-text-font-extended.otf);
+    color: #f8ce8f;
+}
+
+main > h2{
+    margin-top: 40px;
+    color:rgb(255, 255, 83);
+}
+
+main > h4{
+    text-align: center;
+}
+
+
