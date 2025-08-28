@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-color: bisque;
+}
+
+header{
+    background-color: antiquewhite;
+    padding: 5px;
+    text-align: center;
+}
+
+section{
+    background-color: antiquewhite;
+    padding: 5px;
+    border: solid chocolate 3px;
+    margin: 3px;
+    text-align: left;
+}
+
+footer{
+    background-color: antiquewhite;
+    margin-top: 14%;
+    text-align: center;
+}
