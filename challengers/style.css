@@ -1,24 +1,38 @@
 @charset "UTF-8";
 
-*{
-    margin: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+:root{/*edição de fontes*/
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:"Merienda", cursive;
+    --fonte3:"Passion One", sans-serif;
+}
+*{/* edição gerais*/
+    margin: 0px;           
     padding: 0px;
+    font: 1em;
 }
 
 html, body{
     min-height: 100vh;
     background-color: darkgrey;
+    font-family: var(--fonte1);
 }
 
 header{
     background-color: black;
     color: white;
     text-align: center;
+    font-family: var(--fonte3);
+    font-size: 2em;
 }
 
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 10vw; /*viewport width*/
 }
 
 header > p{
@@ -38,7 +52,10 @@ header a:hover, footer a:hover{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh; 
+    padding-left: 30px;
     line-height: 2em;
+    font-family: var(--fonte2);
+    font-size: larger;
 }
 
 section.normal{
@@ -53,8 +70,8 @@ section.imagem{
 
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.527);
-    width: 300px;
-    
+    display: inline-block; /*caixa que se adapta ao conteúdo*/
+    padding: 5px;
 }
 
 footer{
