@@ -35,7 +35,7 @@ header > h1{
 }
 
 header > p{
-    padding-bottom: 25px:;
+    padding-bottom: 50px;
 }
 
 header > a, footer > a {
@@ -53,13 +53,13 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh; 
     padding-left: 30px;
-    line-height: 2em; /*Espaçamento entre as linhas*/
     font-size: larger;
     font-family: var(--fonte02);
 }
 
 section > p{
     padding-bottom: 2em;
+    line-height: 2em;
 }
 
 section.normal{
