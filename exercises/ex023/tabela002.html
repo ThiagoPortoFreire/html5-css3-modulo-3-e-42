@@ -21,12 +21,20 @@
             padding: 10px;
         }
 
-        thead, tfoot{
-            background-color: grey;
-            color: white;
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
 
+        thead, tfoot{
+            background-color: rgb(95, 95, 95);
+            color: white;
+            text-align: center;
         }
     </style>
+
 </head>
 <body>
     <!--Anatomia de tabela grande
@@ -40,10 +48,11 @@
     -->
 
     <table>
+        <caption>População das Unidades Federativas<caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
 
         </thead>
@@ -61,13 +70,17 @@
                     <td>Rio de Janeiro</td>
                     <td>17 264 943</td>
                 </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td>14 873 064</td>
+                </tr>
 
                 
 
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td>0000</td>
             </tr>
 
