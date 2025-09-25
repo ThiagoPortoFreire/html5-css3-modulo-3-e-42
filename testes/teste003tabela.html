@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        thead{
+            background-color: gray;
+            color: white;
+            text-align: center;
+        }
+
+        td.life{
+            background-color: rgb(0, 165, 0);
+            color: beige;
+        }
+        
+        td.damage{
+            background-color: red;
+            color: beige;
+            width: 100px;
+        }
+
+    
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Terrarias Bosses</caption>
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">life</th>
+                <th scope="col">Damage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>king Slime</td>
+                <td class="life">2000</td>
+                <td class="damage">40</td>
+            </tr>
+
+            <tr>
+                <td>Eye of Cthulhu</td>
+                <td class="life">2800</td>
+                <td class="damage">15</td>
+            </tr>
+            <tr>
+                <td>Eater of worlds</td>
+                <td class="life">1250</td>
+                <td class="damage">30</td>
+            </tr>
+            <tr>
+                <td>Queen Bee</td>
+                <td class="life">3400</td>
+                <td class="damage">30</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
