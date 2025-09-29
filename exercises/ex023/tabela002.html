@@ -13,7 +13,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
-
+            position: relative;
         }
 
         td, th{
@@ -32,6 +32,25 @@
             background-color: rgb(95, 95, 95);
             color: white;
             text-align: center;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: rgb(95, 95, 95);
+        }
+
+        tbody > tr:nth-child(odd){ /*odd = ímpar*/
+            background-color: rgb(255, 255, 255);
+        }
+
+        tbody > tr:nth-child(even){ /*even = par*/
+            background-color: lightgray;
+
+        }
+
+        td.num{
+            text-align: right;
         }
     </style>
 
@@ -59,20 +78,28 @@
         <tbody>
                 <tr>
                     <td>São paulo</td>
-                    <td>45 919 049</td>
+                    <td class="num">45 919 049</td>
                 </tr>
 
                 <tr>
                     <td>Minas Gerais</td>
-                    <td>21  168 791</td>
+                    <td class="num">21  168 791</td>
                 </tr>
                 <tr>
                     <td>Rio de Janeiro</td>
-                    <td>17 264 943</td>
+                    <td class="num">17 264 943</td>
                 </tr>
                 <tr>
                     <td>Bahia</td>
-                    <td>14 873 064</td>
+                    <td class="num">14 873 064</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11 433 957</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Sul</td>
+                    <td class="num">11 377 239</td>
                 </tr>
 
                 
@@ -81,7 +108,7 @@
         <tfoot>
             <tr>
                 <th scope="row">Total de habitantes</th>
-                <td>0000</td>
+                <td>122 037 043</td>
             </tr>
 
         </tfoot>
