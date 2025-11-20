@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulário</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: azure;
+        }
+
+        h1{
+            font-weight: bold;
+        }
+
+        p#paragrafo{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Preencha os campos requeridos</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p id="paragrafo">Nome<input type="text" name="nome" id="nome"></p>
+        <p id="paragrafo">Sobrenome<input type="text" name="sobrenome" id="sobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
