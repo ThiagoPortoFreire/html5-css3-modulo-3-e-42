@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste formulário</title>
+    <style>
+        :root{
+          
+        }
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        header{
+            text-align: center;
+            background-color: rgb(86, 172, 86);
+            margin-bottom: 10px;
+            color:  rgb(58, 117, 58);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        label{
+            margin: 3.5px;
+            color: rgb(82, 165, 82);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        input{
+            margin: 5px;
+            color: rgb(82, 165, 82);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Estudo de formulário</h1>
+    </header>
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+       <p>
+        <label id="lanome">Nome:</label>
+        <input type="text" name="nome" id="inome" maxlength="30" minlength="8">
+       </p>
+
+        <p>
+        <label for="isenha">Senha:</label>
+        <input type="password" name="senha" id="isenha" maxlength="10" required minlength="6" placeholder="Minímo de 6 caracteres">
+        </p>
+
+        <p>
+            <label for="idia">Data:</label>
+            <input type="date" name="dia" id="idia" value="2004-12-15">
+
+        </p>
+
+        <p>
+            <label for="iidade">Idade:</label>
+            <input type="number" name="idade" id="iidade" max="70">
+        </p>
+
+        <p>
+            <label for="ihora">Hora da prova:</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
