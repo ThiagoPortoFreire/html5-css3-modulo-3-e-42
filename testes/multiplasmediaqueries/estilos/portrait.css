@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+body, html{
+    background-image: url(../multimediaqueries/images/cev-portrait.jpg);
+    background-size: center bottom;
+    background-repeat: no-repeat;
+}

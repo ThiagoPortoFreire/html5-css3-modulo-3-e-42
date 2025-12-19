@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+h1{
+    color: white;
+    text-shadow: 3px 3px 0px rgb(0, 0, 163);
+    text-align: center;
+}
+
+menu > ul{
+    color: white;
+    margin-left: 25px;
+}
+
+main{
+    color: white;
+    margin: 15px;
+}
+
+aside{
+    color: white;
+    margin: 25px;
+}
