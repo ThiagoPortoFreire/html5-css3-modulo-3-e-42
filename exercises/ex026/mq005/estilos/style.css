@@ -2,9 +2,61 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 
 body, html{
     background-color: lightgray;
+}
+
+header{
+    background-color: rgb(156, 156, 156);
+}
+
+header > h1{
+    padding: 10px;
+    text-align: center;
+}
+
+menu{
+    display: block;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(97, 97, 97);
+    border-top: 2px solid rgb(172, 171, 171);
+    text-align: center;
+}
+
+menu > ul > li > a:hover{
+    background-color: gray;
+    transition: 0.5s;
+}
+
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+article > h2{
+    padding-bottom: 20px;
+}
+
+article > p{
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
 }
