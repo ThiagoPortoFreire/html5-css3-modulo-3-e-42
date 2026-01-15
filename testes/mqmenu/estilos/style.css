@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body, html{
+    background-color: lightblue;
+}
+
+header{
+    background-color: rgb(98, 192, 255);
+}
+
+header > h1{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+i#hamburguer{
+    padding: 5px;
+    display: block;
+    background-color: rgb(58, 119, 160);
+    text-align: center;
+    cursor: pointer;
+}
+
+i#hamburguer:hover{
+    background-color:  rgb(75, 152, 204);
+    color: white;
+    transition: 0.3s;
+}
+
+menu#items{
+    text-align: center;
+    background-color: rgb(48, 99, 133);
+}
+
+
+menu > ul > li {
+    background-color:  rgb(35, 73, 99);
+    padding: 5px;
+    border: solid white 2px;
+}
+
+menu > ul > li:hover{
+    background-color: rgb(68, 144, 194);
+    transition: 0.3s;
+}
+
+
+
+menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    width: 90vw;
+    margin: auto;
+    background-color: aliceblue;
+    border: solid rgb(98, 192, 255) 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+article > p{
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}

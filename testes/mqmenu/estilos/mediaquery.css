@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    i#hamburguer{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+
+    main{
+        width: 768px;
+    }
+
+}
+
